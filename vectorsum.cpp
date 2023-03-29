@@ -3,7 +3,8 @@
 #include <locale>
 #include <iostream>
 #include <string>
-#include<windows.h>  
+#include <windows.h>
+#include <ctime>
 using std::cout;
 using std::cin;
 using std::endl;
@@ -11,7 +12,7 @@ using std::endl;
 int main()
 {
 	// k - количество процессов; n - размерность 
-	
+	srand(time(0));
         int k, n;
 	// id - номер потока
 	int i, j, id;
