@@ -11,7 +11,8 @@ using std::endl;
 int main()
 {
 	// k - количество процессов; n - размерность 
-	long long int k, n;
+	
+int k, n;
 	// id - номер потока
 	int i, j, id;
 	setlocale(0, "rus");
