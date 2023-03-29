@@ -39,7 +39,7 @@ int main()
 	{
 		cout << b[i] << " ";
 	}
-#pragma omp parallel shared(a, b, c) private(i, id) 
+#pragma omp parallel private(i, id) 
 	{
 		/* Получим номер текущей нити */
 		id = omp_get_thread_num();
